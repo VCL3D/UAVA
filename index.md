@@ -20,7 +20,7 @@ We record the drone's world pose among the scene at each time step.
 
 
 <h1> Modalities </h1>
-For the egocentric "UAV" view we generate colour images, depth, and surface maps, in addition to the optical ﬂow for two consecutive frames <b>t, t + 1 </b> sampled from the dense play-through trajectories.
+For the egocentric "UAV" view we generate using <a href="https://www.blender.org/">Blender</a> ,colour images, depth, and surface maps, in addition to the optical ﬂow for two consecutive frames <b>t, t + 1 </b> sampled from the dense play-through trajectories.
 For the exocentric "user" view apart from the afforementioned modalities we generated and drone's silhouette images.
 <h2> Samples </h2>
 <table>
