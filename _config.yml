@@ -1,1 +1,11 @@
 theme: jekyll-theme-minimal
+title: UAVA Dataset
+show_downloads: false
+description:
+
+github:
+    repository_url: https://github.com/VCL3D/UAVA
+    is_project_page: true
+    repository_name: UAVA
+    owner_url: https://github.com/tzole1155
+    owner_name: Giorgos Albanis

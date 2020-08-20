@@ -5,7 +5,7 @@
  <img src="./assets/images/dataset_concept.png" alt="DatasetConcept">
  </p>
 
- <h1 id="motivation">Motication</h1>
+ <h1 id="motivation">Motivation</h1>
 With the advent of low-cost commercial mini-UAVs, new applications and ways of interactions have emerged.
 However, most of the existing UAV related dataset do not target such applications, prohibiting the development of data-driven methods.
 Towards that end, we introduce UAVA a dataset designed for facilitating the development of such methods.
@@ -20,9 +20,8 @@ We record the drone's world pose among the scene at each time step.
 
 
 <h1> Modalities </h1>
-For the egocentric "UAV" view we generate colour images, depth, and surface maps, in addition to the optical ﬂow for two consecutive frames t,t + 1 sampled from the dense play-through trajectories.
+For the egocentric "UAV" view we generate colour images, depth, and surface maps, in addition to the optical ﬂow for two consecutive frames <b>t, t + 1 </b> sampled from the dense play-through trajectories.
 For the exocentric "user" view apart from the afforementioned modalities we generated and drone's silhouette images.
-
 <h2> Samples </h2>
 <table>
 <tr>
