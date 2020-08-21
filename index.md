@@ -49,9 +49,9 @@ For the exocentric "user" view apart from the afforementioned modalities we gene
   <li>
     Then you need to perform request for access to Zenodo, the data hosting portal for the UAVA dataset. Due to data-size limitations and future dataset enhancements (e.g addition of new drone mdoels, etc.), the dataset is split per drone model, camera view, and modalities into seperate volumes.
     The first volumes contains the M2ED drone model, and  data from different views.
-    In more detail the first link contains colour, depth , and silhouette of the drone from an exocentric view <a href="https://zenodo.org/record/3407840#.XX06KygzaUk"></a>
-    The second link contains colour and depth data from the egocentric (i.e. UAV view)
-    which respectively contain the <a href="https://zenodo.org/record/3407840#.XX06KygzaUk"></a> (<i>i.e.</i> Left-Down), <a href="https://zenodo.org/record/3407875#.XX08HCgzaUk">Right</a> and <a href="https://zenodo.org/record/3408441#.XX1QWCgzaUk">Up</a> viewpoints respectively. 
+    In more detail the first link contains colour, depth , and silhouette of the drone from an exocentric view <a href="https://zenodo.org/record/3994337#.Xz_ruzVoSUk">M2ED Exocentic View CDS</a>
+    The second volume contains colour and depth data from the egocentric (i.e. UAV view)
+     <a href="https://zenodo.org/record/3994461#.Xz_qSjVoSUk"></a> (<i>i.e.</i> M2ED Egocentic View CD).
     Therefore, a separate request for access needs to be made for each viewpoint to the corresponding Zenodo repository.
   </li>
 </ol>
