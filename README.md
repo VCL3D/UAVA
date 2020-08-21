@@ -20,10 +20,5 @@
 
 TODO: A set of tools for facilitating the usage of the UAVA dataset.
 
-## Requirements
-The code is based on PyTorch and has been tested with Python 3.7 and CUDA 10.1.
-We recommend setting up a virtual environment (follow the `virtualenv` documentation) for installing PyTorch and the other necessary Python packages.
-Once your environment is set up and activated, install the necessary packages:
-
 ## Data Loaders
 TODO: Add dataloaders
