@@ -54,7 +54,7 @@ For the exocentric "user" view apart from the afforementioned modalities we gene
     The first volumes contains the M2ED drone model, and  data from different views.
     In more detail the first link contains colour, depth , and silhouette of the drone from an exocentric view <a href="https://zenodo.org/record/3994337#.Xz_ruzVoSUk">M2ED Exocentic View CDS</a>
     The second volume contains colour and depth data from the egocentric (i.e. UAV view)
-     <a href="https://zenodo.org/record/3994461#.Xz_qSjVoSUk"></a> (<i>i.e.</i> M2ED Egocentic View CD).
+     <a href="https://zenodo.org/record/3994461#.Xz_qSjVoSUk"> M2ED Egocentic View CD</a>.
     Therefore, a separate request for access needs to be made for each viewpoint to the corresponding Zenodo repository.
   </li>
 </ol>
