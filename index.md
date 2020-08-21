@@ -68,7 +68,13 @@ Each volume is broken down in several <code>.zip</code> files (2GB each) for mor
  We follow the same data-split logic as defined in Matterport3D.
 
   <h2> Data organisation</h2>
-
+<table>
+<tr>
+<td>
+<img src="./assets/images/organisation.png" alt="datatree">
+</td>
+</tr>
+</table>
  <h1> Acknowledgements </h1>
  This dataset has been generated within the European Union’s Horizon 2020 innovation programme [FASTER](https://www.faster-project.eu/) under grant agreement No 833507.
 
