@@ -66,11 +66,9 @@ Each volume is broken down in several <code>.zip</code> files (2GB each) for mor
 </p>
 
  <h2> Trajectories </h2>
- In the following link we provide the sampled trajectories for each scene as well as the recorded drone pose.
-<a href="./trajectories/trajectories.zip" download>
+ In the following link we provide the sampled <a href="./trajectories/trajectories.zip" download>
   trajectories
-</a>
-
+</a> for each scene as well as the recorded drone pose.
 
  <h2> Data splits </h2>
  We follow the same data-split logic as defined in Matterport3D.
