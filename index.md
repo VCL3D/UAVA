@@ -18,6 +18,9 @@ We record the drone's world pose among the scene at each time step.
 
 <img src="./assets/videos/Unity_game.gif" alt="Gamification">
 
+ In the following link we provide the sampled <a href="./trajectories/trajectories.zip" download>
+trajectories
+</a> for each scene as well as the recorded drone pose.
 
 <h1> Modalities </h1>
 For the egocentric "UAV" view we generate using <a href="https://www.blender.org/">Blender</a> ,colour images, depth, and surface maps, in addition to the optical ﬂow for two consecutive frames <b>t, t + 1 </b> sampled from the dense play-through trajectories.
@@ -64,11 +67,6 @@ For the exocentric "user" view apart from the afforementioned modalities we gene
 <p style="text-align: justify;">
 Each volume is broken down in several <code>.zip</code> files (2GB each) for more convinient downloading on low bandwidth connections. You need all the <code>.zip</code> archives of each volume in order to extract the containing files.
 </p>
-
- <h2> Trajectories </h2>
- In the following link we provide the sampled <a href="./trajectories/trajectories.zip" download>
-  trajectories
-</a> for each scene as well as the recorded drone pose.
 
  <h2> Data splits </h2>
  We follow the same data-split logic as defined in Matterport3D.
