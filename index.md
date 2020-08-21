@@ -67,7 +67,7 @@ Each volume is broken down in several <code>.zip</code> files (2GB each) for mor
  <h2> Data splits </h2>
  We follow the same data-split logic as defined in Matterport3D.
 
-  <h2> Data organisation</h2>
+<h2> Data organisation</h2>
 <table>
 <tr>
 <td>
