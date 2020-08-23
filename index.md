@@ -74,7 +74,7 @@ Each volume is broken down in several <code>.zip</code> files (2GB each) for mor
 <table>
 <tr>
 <td>
-<img src="./assets/images/organisation.png" height="350" alt="datatree">
+<img src="./assets/images/organisation.png" height="450" alt="datatree">
 </td>
 </tr>
 </table>
