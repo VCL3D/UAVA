@@ -1,26 +1,24 @@
 <h1 id="overview">Overview</h1>
- UAVA,<i>UAV-Assistant</i>,dataset is specifically designed for fostering applications which consider UAVs and humans as cooperative agents. We employ a real-world 3D scanned dataset (<a href="https://niessner.github.io/Matterport/">Matterport3D</a>
-), physically-based shading, a gamiﬁed simulator for realistic drone navigation trajectory collection and randomized sampling, to generate multimodal data both from the user’s exocentric view of the drone, as well as the drone’s egocentric view
+The UAVA,<i>UAV-Assistant</i>, dataset is specifically designed for fostering applications which consider UAVs and humans as cooperative agents.
+We employ a real-world 3D scanned dataset (<a href="https://niessner.github.io/Matterport/">Matterport3D</a>), physically-based rendering, a gamiﬁed simulator for realistic drone navigation trajectory collection, to generate realistic multimodal data both from the user’s exocentric view of the drone, as well as the drone’s egocentric view
  <p>
  <img src="./assets/images/dataset_concept.png" alt="DatasetConcept">
  </p>
 
  <h1 id="motivation">Motivation</h1>
 With the advent of low-cost commercial mini-UAVs, new applications and ways of interactions have emerged.
-However, most of the existing UAV related dataset do not target such applications, prohibiting the development of data-driven methods.
-Towards that end, we introduce UAVA a dataset designed for facilitating the development of such methods.
+However, most of the existing UAV related datasets do not target such applications, prohibiting the development of data-driven methods.
+We introduce UAVA a dataset designed for facilitating the data-driven development of such methods.
 The dataset was created by leveraging an existing photorealistic dataset of indoor scenes, and by following a carefully designed gamification approach.
 
 <h1>Trajectories</h1>
-For collecting realistic and unbiased trajectories, we developed a game on <a href="https://unity.com/">Unity3D</a> and <a href="https://microsoft.github.io/AirSim/">AirSim</a>.
-Collectible cube “coins” were placed at each of the known panorama positions (anchors) players were forced to navigate within the whole scene to collect the coins.
-We record the drone's world pose among the scene at each time step.
+For the collection of realistic and unbiased trajectories, we developed a game on <a href="https://unity.com/">Unity3D</a> using <a href="https://microsoft.github.io/AirSim/">AirSim</a>.
+Collectible cube “coins” were placed at each of the known panorama positions (anchors) and players were forced to navigate within the whole scene to collect the coins.
+We record the drone's world pose among the scene at each time step **t**.
 
 <img src="./assets/videos/Unity_game.gif" alt="Gamification">
 
- In the following link we provide the sampled <a href="./trajectories/trajectories.zip" download>
-trajectories
-</a> for each scene as well as the recorded drone pose.
+In the following link we provide the sampled <a href="./trajectories/trajectories.zip" download>trajectories</a> for each scene as well as the recorded drone pose.
 
 <h1> Modalities </h1>
 For the egocentric "UAV" view we generate using <a href="https://www.blender.org/">Blender</a> ,colour images, depth, and surface maps, in addition to the optical ﬂow for two consecutive frames <b>t, t + 1 </b> sampled from the dense play-through trajectories.
