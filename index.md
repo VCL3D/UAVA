@@ -21,8 +21,9 @@ We record the drone's world pose among the scene at each time step **t**.
 In the following link we provide the sampled <a href="./trajectories/trajectories.zip" download>trajectories</a> for each scene as well as the recorded drone pose.
 
 <h1> Modalities </h1>
-For the egocentric "UAV" view we generate using <a href="https://www.blender.org/">Blender</a> ,colour images, depth, and surface maps, in addition to the optical ﬂow for two consecutive frames <b>t, t + 1 </b> sampled from the dense play-through trajectories.
-For the exocentric "user" view apart from the afforementioned modalities we generated and drone's silhouette images.
+We use <a href="https://www.blender.org/">Blender</a> to synthesize our dataset.
+For the egocentric "UAV" view we generate color images, depth, and surface maps, in addition to the optical ﬂow for two consecutive frames <b>t, t + 1 </b> sampled from the dense play-through trajectories.
+For the exocentric "user" view apart from the afforementioned modalities we also utilize a composition pipeline to add a photorealistically shared drone into the scene, and also generate its corresponding silhouette image.
 <h2> Samples </h2>
 <table>
 <tr>
