@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
-title: UAVA Dataset
+title: UAVA 
 show_downloads: false
-description:
+description: A dataset for UAV assistant tasks
 
 github:
     repository_url: https://github.com/VCL3D/UAVA
