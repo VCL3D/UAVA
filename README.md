@@ -31,4 +31,4 @@ An example data loading usage can be found in ['visualize_dataset.py'](./visuali
 Given that **UAVA** dataset can be used in a variatety of tasks ranging from computer vision to robotics, data loading can be modified accordingly w.r.t. `drone model` , `camera views`, `image types` and `time frames`.
 
 ## Splits
-The data splits follow the same distribution of the [Matterport3D](https://niessner.github.io/Matterport/) dataset and can be found in the [data splits](data splits) folder. 
+The data splits follow the same distribution of the [Matterport3D](https://niessner.github.io/Matterport/) dataset and can be found in the [data splits](data%20splits) folder. 
