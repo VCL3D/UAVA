@@ -25,13 +25,6 @@ def parse_arguments(args):
     parser.add_argument("--frame_list",nargs="*", type=int, default = [0,1], help = "List of frames to be included")
     parser.add_argument("--types_list",nargs="*", type=str, default = ["colour", "depth","silhouette","normal"], help = "List of different modalities to be loaded")
 
-    # other
-    parser.add_argument('-n','--name', type=str, default='default_name', help='The name of this train/test. Used when storing information.')
-   
-    parser.add_argument("--visdom", type=str, nargs='?', default="localhost", const="127.0.0.1", help = "Visdom server IP (port defaults to 8097)")
-    parser.add_argument("--visdom_iters", type=int, default=400, help = "Iteration interval that results will be reported at the visdom server for visualization.")
-    parser.add_argument("--seed", type=int, default=1337, help="Fixed manual seed, zero means no seeding.")
-
 
     return parser.parse_known_args(args)
 
@@ -56,10 +49,10 @@ if __name__ == "__main__":
     #TODO: add a visualisation script to be added in the UAVA dataset
     for batch_id, batch in enumerate(train_set):
         #exocentric -- frame_0
-        viz.show_images_grid(batch['exocentric'][0]["colour"], "all_colors")
-        viz.show_depths_grid(batch['exocentric'][0]["depth"], "all_depths")
-        viz.show_normals_grid(batch['exocentric'][0]["normal"], "all_normals")
-        viz.show_images_grid(batch['exocentric'][0]["silhouette"], "silhouettes")
+        viz.show_images_grid(batch['exocentric'][0]["colour"], "Exocentric view colour")
+        viz.show_depths_grid(batch['exocentric'][0]["depth"], "Exocentric view depth")
+        viz.show_normals_grid(batch['exocentric'][0]["normal"], "Exocentric view normals")
+        viz.show_images_grid(batch['exocentric'][0]["silhouette"], "Exocentric view silhouette masks")
         #egocentric -- frame_0
         viz.show_images_grid(batch['egocentric'][0]["colour"], "Egocentric view colour")
         viz.show_depths_grid(batch['egocentric'][0]["depth"], "Egocentric view depth")
