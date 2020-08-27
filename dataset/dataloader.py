@@ -104,7 +104,7 @@ class DataLoad(Dataset):
                     elif type_ == "depth":
                         value = importers.image.load_depth(datum[view][str(frame)][type_])
                     elif type_ == "normal":
-                        value = importers.image.load_depth(datum[view][str(frame)][type_])
+                        value = importers.image.load_normal(datum[view][str(frame)][type_])
                     else:
                         vsalue = importers.image.load_image(datum[view][str(frame)][type_])
                     frame_dict.update({str(type_) : value.squeeze(0)})
