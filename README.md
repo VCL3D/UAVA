@@ -19,7 +19,7 @@
 # UAVA Toolset
 A set of tools for working with the [UAVA dataset](https://vcl3d.github.io/UAVA/)
   - PyTorch data loaders
-  - Dataset splits generation scripts
+  - Dataset splits
   - Visualisation script
 
 The **UAVA** dataset was generated following a carefully data synthesis pipeline for ensuring the generation of photorealistic images and realistic trajectories.
