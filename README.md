@@ -13,12 +13,12 @@
 - [x] Add data loaders.
 - [ ] Add normals, and optical flow from an exocentic view.
 - [ ] Add normals, and optical flow from an egocentic view.
-- [ ] Add new drone models.
+- [ ] Add extra drone models.
 
 
 # UAVA Toolset
-A set of tools for working with the [UAVA dataset] (https://vcl3d.github.io/UAVA/)
-  - Pytorch data loaders
+A set of tools for working with the [UAVA dataset](https://vcl3d.github.io/UAVA/)
+  - PyTorch data loaders
   - Dataset splits generation scripts
   - Visualisation script
 
