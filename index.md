@@ -26,11 +26,21 @@ For the egocentric "UAV" view we generate color images, depth, and surface maps,
 For the exocentric "user" view apart from the afforementioned modalities we also utilize a composition pipeline to add a photorealistically shared drone into the scene, and also generate its corresponding silhouette image.
 <h2> Samples </h2>
 <table>
+ <tr>
+  <th>
+   Egocentric View
+  </th>
+ </tr>
 <tr>
 <td>
 <img src="./assets/images/EgoSamples.png" alt="EgoSamples">
 </td>
 </tr>
+  <tr>
+  <th>
+   Exocentric View
+  </th>
+ </tr>
 <tr>
 <td>
 <img src="./assets/images/ExoSamples.png" alt="ExoSamples">
