@@ -23,6 +23,8 @@ A set of tools for working with the [UAVA dataset](https://vcl3d.github.io/UAVA/
   - Visualisation script
 
 The **UAVA** dataset was generated following a carefully data synthesis pipeline for ensuring the generation of photorealistic images and realistic trajectories.
+
+Please download the [trajectories](https://vcl3d.github.io/UAVA/trajectories/trajectories.zip) before using the scripts.
  
 
 ## Data Loading
