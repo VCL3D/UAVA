@@ -51,9 +51,9 @@ if __name__ == "__main__":
         #exocentric -- frame_0
         viz.show_images_grid(batch['exocentric'][0]["colour"], "Exocentric view colour")
         viz.show_depths_grid(batch['exocentric'][0]["depth"], "Exocentric view depth")
-        viz.show_normals_grid(batch['exocentric'][0]["normal"], "Exocentric view normals")
+        #viz.show_normals_grid(batch['exocentric'][0]["normal"], "Exocentric view normals")
         viz.show_images_grid(batch['exocentric'][0]["silhouette"], "Exocentric view silhouette masks")
         #egocentric -- frame_0
-        viz.show_images_grid(batch['egocentric'][0]["colour"], "Egocentric view colour")
-        viz.show_depths_grid(batch['egocentric'][0]["depth"], "Egocentric view depth")
-        viz.show_normals_grid(batch['egocentric'][0]["normal"], "Egocentric view normals")
+        #viz.show_images_grid(batch['egocentric'][0]["colour"], "Egocentric view colour")
+        #viz.show_depths_grid(batch['egocentric'][0]["depth"], "Egocentric view depth")
+        #viz.show_normals_grid(batch['egocentric'][0]["normal"], "Egocentric view normals")
