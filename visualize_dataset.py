@@ -13,17 +13,17 @@ def parse_arguments(args):
     )
     parser = argparse.ArgumentParser(description=usage_text)
     # durations
-    parser.add_argument('-b',"--batch_size", default=8, type = int, help = "Train with a <batch_size> number of samples each train iteration.")
-    parser.add_argument("--test_batch_size", default= 8, type = int, help = "Test with a <batch_size> number of samples each test iteration.")    
-    parser.add_argument('-w','--workers', type=int, default=4, help='Test model every <test_iters> iterations.')
+    parser.add_argument('-b',"--batch_size", default=2, type = int, help = "Train with a <batch_size> number of samples each train iteration.")
+    parser.add_argument("--test_batch_size", default= 2, type = int, help = "Test with a <batch_size> number of samples each test iteration.")    
+    parser.add_argument('-w','--workers', type=int, default=2, help='Test model every <test_iters> iterations.')
     # paths
     parser.add_argument("--root_path", type = str, help = "Path to the root folder containing all the files")
     parser.add_argument("--trajectory_path", type = str, help = "Path containing the ground_truth poses")
     #dataset parameters
-    parser.add_argument("--view_list",nargs="*", type=str, default = ["egocentric","exocentric"], help = "List of views to be loaded")
+    parser.add_argument("--view_list",nargs="*", type=str, default = ["exocentric"], help = "List of views to be loaded")
     parser.add_argument("--drone_list",nargs="*", type=str, default = ["M2ED"], help = "List of drone models to be loaded")
     parser.add_argument("--frame_list",nargs="*", type=int, default = [0,1], help = "List of frames to be included")
-    parser.add_argument("--types_list",nargs="*", type=str, default = ["colour", "depth","silhouette","normal"], help = "List of different modalities to be loaded")
+    parser.add_argument("--types_list",nargs="*", type=str, default = ["colour", "depth","silhouette"], help = "List of different modalities to be loaded")
 
 
     return parser.parse_known_args(args)
@@ -51,9 +51,9 @@ if __name__ == "__main__":
         #exocentric -- frame_0
         viz.show_images_grid(batch['exocentric'][0]["colour"], "Exocentric view colour")
         viz.show_depths_grid(batch['exocentric'][0]["depth"], "Exocentric view depth")
-        viz.show_normals_grid(batch['exocentric'][0]["normal"], "Exocentric view normals")
+        #viz.show_normals_grid(batch['exocentric'][0]["normal"], "Exocentric view normals")
         viz.show_images_grid(batch['exocentric'][0]["silhouette"], "Exocentric view silhouette masks")
         #egocentric -- frame_0
-        viz.show_images_grid(batch['egocentric'][0]["colour"], "Egocentric view colour")
-        viz.show_depths_grid(batch['egocentric'][0]["depth"], "Egocentric view depth")
-        viz.show_normals_grid(batch['egocentric'][0]["normal"], "Egocentric view normals")
+        #viz.show_images_grid(batch['egocentric'][0]["colour"], "Egocentric view colour")
+        #viz.show_depths_grid(batch['egocentric'][0]["depth"], "Egocentric view depth")
+        #viz.show_normals_grid(batch['egocentric'][0]["normal"], "Egocentric view normals")

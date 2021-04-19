@@ -32,5 +32,29 @@ An example data loading usage can be found in ['visualize_dataset.py'](./visuali
 
 Given that **UAVA** dataset can be used in a variatety of tasks ranging from computer vision to robotics, data loading can be modified accordingly w.r.t. `drone model` , `camera views`, `image types` and `time frames`.
 
+Apart from the default values, there are some system specific arguments that need to be set up. We provide two indicative cases about how the data structure of each folder should look like. 
+
+- `root_path` that points the root folder of the data (e.g. `"D:\\Data\\Cleaned"`).
+
+<span class="img_container left" style="display: block;">
+    <p align="left">
+    <img alt="Data structure" height=250 src="images/data_structure.png" style="display:block; margin-right: auto;" title="caption" />
+    <br />
+    <span class="img_caption" style="display: block; text-align: left;">Data structure snapshot</span>
+    </p>
+</span>
+
+- `trajectory_path` that points to the trajectory file (e.g. `"D:\\Data\\trajectories"`).
+
+<span class="img_container left" style="display: block;">
+    <p align="left">
+    <img alt="Trajectory structure" height=250 src="images/trajectory_structure.png" style="display:block; margin-right: auto;" title="caption" />
+    <br />
+    <span class="img_caption" style="display: block; text-align: left;">Trajectory structure snapshot</span>
+    </p>
+</span>
+
+
+
 ## Splits
 The data splits follow the same distribution of the [Matterport3D](https://niessner.github.io/Matterport/) dataset and can be found in the [data splits](data%20splits) folder. 

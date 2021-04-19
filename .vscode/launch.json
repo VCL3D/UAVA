@@ -11,8 +11,8 @@
             "program": "${file}",
             "console": "integratedTerminal",
             "args": [
-                "--root_path", "/media/nzioulis/New Volume/iti-688/Cleaned",
-                "--trajectory_path", "/media/nzioulis/New Volume/iti-688/trajectories/",
+                "--root_path", "D:\\Data\\Cleaned",
+                "--trajectory_path", "D:\\Data\\trajectories",
             ]
         }
     ]
