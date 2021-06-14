@@ -34,7 +34,7 @@ Given that **UAVA** dataset can be used in a variatety of tasks ranging from com
 
 Apart from the default values, there are some system specific arguments that need to be set up. We provide two indicative cases about how the data structure of each folder should look like. 
 
-- `root_path` that points the root folder of the data (e.g. `"D:\\Data\\Cleaned"`).
+- `root_path` that points the root folder of the data (e.g. `"D:\\Data\\root"`).
 
 <span class="img_container left" style="display: block;">
     <p align="left">
